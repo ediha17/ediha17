@@ -1,4 +1,4 @@
-# :fearful: My greatest fear... The Norminette
+# My greatest fear... The Norminette :fearful:
 
 *Passionate about low-level optimization, modular architecture, and writing clean, robust code.*
 
