@@ -1,7 +1,7 @@
 ## Hi I'm Edi
 
 My career in software development is driven by a deep curiosity about technology and how code interacts with it. I’m currently fully immersed in the 42 methodology as a student at the Barcelona campus, prioritizing peer-to-peer and self-taught learning. 
-*When i enter in 42, I discover my greatest fear... The Norminette 😨.*
+*When i enter in 42, I discover my greatest fear... The Norminette*😨.
 
 ---
 
