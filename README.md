@@ -1,6 +1,8 @@
-# My greatest fear... The Norminette :fearful:
+## My greatest fear... The Norminette :fearful:
 
 *Passionate about technology and programming, modular architecture, and writing clean, robust code.*
+
+My career in software development is driven by a deep curiosity about technology and how code interacts with it. I’m currently fully immersed in the 42 methodology as a student at the Barcelona campus, prioritizing peer-to-peer and self-taught learning. When i enter in 42, I discover my greatest fear... The Norminette :skull:. 
 
 ---
 
@@ -51,16 +53,30 @@
 
 #### 🖨️ [ft_printf](enlace-a-tu-repo)
 *Custom Implementation of the C Standard Library printf*
+
 * **The Challenge:** Handling variadic arguments and data conversion without memory leaks.
+
 * **Architecture:** Developed a **modular dispatcher** system that maps specifiers to specialized internal logic, ensuring high extensibility and O(1) function lookup for conversions.
+
 * **Key Learning:** Deep dive into the **call stack**, `va_list` management, and binary-to-hexadecimal conversion algorithms.
 
 #### 🐚 [ft_get_next_line](https://github.com/ediha17/42Bcn_get_next_line.git)
 *Line-by-line File Reading via File Descriptors*
+
 * **The Challenge:** Designing a function that efficiently reads from a file descriptor (`fd`) and returns a single line per call, without knowing the line length in advance or losing data between consecutive calls.
+
 *  **Architecture:** Implemented a **static buffer management system** that preserves the "leftover" data from the previous `read()` operation. The algorithm uses a loop to accumulate data into a static variable until a newline character (`\n`) is detected or the end of the file (EOF) is reached.
+
 *  **Key Learning:** Advanced handling of static variables, heap memory allocation, and optimizing the read() system call using a configurable `BUFFER_SIZE`. Mastery of **memory leak prevention** during string concatenation and truncation.
 
+### [libft](https://github.com/ediha17/42Bcn_Libft.git)
+*Custom Static Library of C Standard Functions*
+
+* **The Challenge:** Reimplementing a significant portion of the libc functions and additional utility functions to be used in all subsequent 42 projects.
+
+* **Architecture:** Designed as a monolithic static library (.a) with a focus on modularity and rigorous error handling. The project includes reimplementations of string manipulation, memory allocation (`malloc`, `calloc`), and linked list management.
+
+* **Key Learning:** Mastery of pointer arithmetic, understanding the underlying behavior of standard functions, and developing a reusable code base. This project established my foundation for memory management and the importance of writing highly portable code.
 
 ---
 
@@ -78,7 +94,7 @@
 ![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=ediha17&show_icons=true&theme=dark&hide_border=true)
 
 ---
-
+<!--
 ### 🛠️ Current Focus
 * 🚀 Mastering **Data Structures** (Linked Lists, Binary Trees, Hash Maps).
 * 🛡️ Enhancing **Defensive Programming** techniques in C.
@@ -86,6 +102,6 @@
 ### 📫 Contact
 * **LinkedIn:** [Tu Nombre]
 * **Email:** [Tu Email]
-
+-->
 ---
 *:sparkles:"Trying to go beyond the code.":sparkles:*
