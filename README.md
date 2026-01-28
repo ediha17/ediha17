@@ -1,7 +1,6 @@
-# 🚀 @ediha17 | Software Engineer & C Specialist
+# :fearful: My greatest fear... The Norminette
 
 *Passionate about low-level optimization, modular architecture, and writing clean, robust code.*
-*My greatest fear... The Norminette*
 
 ---
 
