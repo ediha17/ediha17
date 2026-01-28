@@ -59,7 +59,7 @@ My career in software development is driven by a deep curiosity about technology
 
 * **Key Learning:** Deep dive into the **call stack**, `va_list` management, and binary-to-hexadecimal conversion algorithms.
 
-#### 🐚 [ft_get_next_line](https://github.com/ediha17/42Bcn_get_next_line.git)
+#### 📌 [ft_get_next_line](https://github.com/ediha17/42Bcn_get_next_line.git)
 *Line-by-line File Reading via File Descriptors*
 
 * **The Challenge:** Designing a function that efficiently reads from a file descriptor (`fd`) and returns a single line per call, without knowing the line length in advance or losing data between consecutive calls.
@@ -68,7 +68,7 @@ My career in software development is driven by a deep curiosity about technology
 
 *  **Key Learning:** Advanced handling of static variables, heap memory allocation, and optimizing the read() system call using a configurable `BUFFER_SIZE`. Mastery of **memory leak prevention** during string concatenation and truncation.
 
-### [libft](https://github.com/ediha17/42Bcn_Libft.git)
+### 📚 [libft](https://github.com/ediha17/42Bcn_Libft.git)
 *Custom Static Library of C Standard Functions*
 
 * **The Challenge:** Reimplementing a significant portion of the libc functions and additional utility functions to be used in all subsequent 42 projects.
