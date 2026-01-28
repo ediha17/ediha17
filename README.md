@@ -29,7 +29,7 @@
     <tr>
       <td align="center"><b>Tools</b></td>
       <td>
-        <img src="[https://img.shields.io/badge/Makefile-%23A81D33.svg?style=flat-square&logo=gnu&logoColor=white](https://www.svgrepo.com/show/373819/makefile.svg)](https://www.svgrepo.com/show/373819/makefile.svg)" alt="Makefile">
+        <img src="[https://img.shields.io/badge/Makefile-%23A81D33.svg?style=flat-square&logo=gnu&logoColor=white](https://www.svgrepo.com/show/373819/makefile.svg)](https://www.svgrepo.com/show/373819/makefile.svg)" height="50" alt="Makefile">
         <img src="https://img.shields.io/badge/GDB-%23313739.svg?style=flat-square&logo=gnu&logoColor=white" alt="GDB">
         <img src="https://img.shields.io/badge/Valgrind-%23191919.svg?style=flat-square&logo=valgrind&logoColor=white" alt="Valgrind">
         <img src="https://img.shields.io/badge/Git-%23F05033.svg?style=flat-square&logo=git&logoColor=white" alt="Git">
