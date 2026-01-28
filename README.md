@@ -10,7 +10,7 @@
 | :---: | :--- |
 | **Languages** | `C` |
 | **Specialties** | `Memory Management`, `Algorithm Design`, `Unix Programming` |
-| **Tools** | `Makefile`, `GDB`, `Valgrind`, `Git`, `Neovim` |
+| **Tools** | `Makefile`, [`GDB`](https://static.thenounproject.com/png/2598277-200.png), `Valgrind`, `Git`, `Neovim` |
 | **Foundations** | `Data Structures`, `Variadic Functions`, `Pointer Arithmetic` |
 
 ---
