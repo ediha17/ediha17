@@ -5,13 +5,44 @@
 ---
 
 ### 💻 Technical Stack
-
-| Category | Technologies |
-| :---: | :--- |
-| **Languages** | ![C]([https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white](https://img.icons8.com/color/512/c-programming.png)) |
-| **Specialties** | `Memory Management`, `Algorithm Design`, `Unix Programming` |
-| **Tools** | `Makefile`, ![GDB](https://img.shields.io/badge/GDB-%23313739.svg?style=flat-square&logo=gnu&logoColor=white), `Valgrind`, `Git`, `Neovim` |
-| **Foundations** | `Data Structures`, `Variadic Functions`, `Pointer Arithmetic` |
+<table>
+  <thead>
+    <tr>
+      <th align="center">Category</th>
+      <th align="left">Technologies</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><b>Languages</b></td>
+      <td>
+        <img src="https://img.shields.io/badge/C-%2300599C.svg?style=flat-square&logo=c&logoColor=white" alt="C">
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><b>Specialties</b></td>
+      <td>
+        <code>Memory Management</code> <code>Algorithm Design</code> <code>Unix Programming</code>
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><b>Tools</b></td>
+      <td>
+        <img src="https://img.shields.io/badge/Makefile-%23A81D33.svg?style=flat-square&logo=gnu&logoColor=white" alt="Makefile">
+        <img src="https://img.shields.io/badge/GDB-%23313739.svg?style=flat-square&logo=gnu&logoColor=white" alt="GDB">
+        <img src="https://img.shields.io/badge/Valgrind-%23191919.svg?style=flat-square&logo=valgrind&logoColor=white" alt="Valgrind">
+        <img src="https://img.shields.io/badge/Git-%23F05033.svg?style=flat-square&logo=git&logoColor=white" alt="Git">
+        <img src="https://img.shields.io/badge/Neovim-%2357A143.svg?style=flat-square&logo=neovim&logoColor=white" alt="Neovim">
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><b>Foundations</b></td>
+      <td>
+        <code>Data Structures</code> <code>Variadic Functions</code> <code>Pointer Arithmetic</code>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
