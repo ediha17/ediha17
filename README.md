@@ -55,4 +55,4 @@
 * **Email:** [Tu Email]
 
 ---
-*"Trying to go beyond the code."*
+*:sparkles:"Trying to go beyond the code.":sparkles:*
