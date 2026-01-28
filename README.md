@@ -55,4 +55,4 @@
 * **Email:** [Tu Email]
 
 ---
-*"Code is only as strong as its weakest pointer."*
+*"Trying to go beyond the code."*
