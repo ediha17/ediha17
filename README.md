@@ -27,7 +27,7 @@ My career in software development is driven by a deep curiosity about technology
     <tr>
       <td align="center"><b>Specialties</b></td>
       <td>
-        <code>Memory Management</code> <code>Algorithm Design</code> <code>Unix Programming</code>
+        <code>Memory Management</code> <code>Algorithm Design</code>
       </td>
     </tr>
     <tr>
