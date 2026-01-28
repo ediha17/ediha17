@@ -29,7 +29,7 @@
     <tr>
       <td align="center"><b>Tools</b></td>
       <td>
-        <img src="https://img.shields.io/badge/Makefile-%23A81D33.svg?style=flat-square&logo=gnu&logoColor=white" alt="Makefile">
+        <img src="https://img.shields.io/badge/Makefile-%23A81D33.svg?style=flat-square&logo=gnu&logoColor=white" height="50" alt="Makefile">
         <img src="https://img.shields.io/badge/GDB-%23313739.svg?style=flat-square&logo=gnu&logoColor=white" alt="GDB">
         <img src="https://img.shields.io/badge/Valgrind-%23191919.svg?style=flat-square&logo=valgrind&logoColor=white" alt="Valgrind">
         <img src="https://img.shields.io/badge/Git-%23F05033.svg?style=flat-square&logo=git&logoColor=white" alt="Git">
@@ -55,11 +55,12 @@
 * **Architecture:** Developed a **modular dispatcher** system that maps specifiers to specialized internal logic, ensuring high extensibility and O(1) function lookup for conversions.
 * **Key Learning:** Deep dive into the **call stack**, `va_list` management, and binary-to-hexadecimal conversion algorithms.
 
-#### 🐚 [Born2beRoot - Scripting & Automation](enlace-a-tu-repo)
-*System Monitoring via Bash*
-* **The Challenge:** Building a non-intrusive monitoring tool for high-availability environments.
-* **Technical Implementation:** Developed a complex **Bash script** using `awk` and `sed` to parse kernel-level data (from `/proc`) and broadcast system telemetry via `wall` using `cron` jobs.
-* **Focus:** Automation and environment reproducibility.
+#### 🐚 [ft_get_next_line](https://github.com/ediha17/42Bcn_get_next_line.git)
+*Line-by-line File Reading via File Descriptors*
+* **The Challenge:** Designing a function that efficiently reads from a file descriptor (`fd`) and returns a single line per call, without knowing the line length in advance or losing data between consecutive calls.
+*  **Architecture:** Implemented a **static buffer management system** that preserves the "leftover" data from the previous `read()` operation. The algorithm uses a loop to accumulate data into a static variable until a newline character (`\n`) is detected or the end of the file (EOF) is reached.
+*  **Key Learning:** Advanced handling of static variables, heap memory allocation, and optimizing the read() system call using a configurable `BUFFER_SIZE`. Mastery of **memory leak prevention** during string concatenation and truncation.
+
 
 ---
 
