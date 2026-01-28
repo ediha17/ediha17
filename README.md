@@ -1,6 +1,6 @@
 # My greatest fear... The Norminette :fearful:
 
-*Passionate about low-level optimization, modular architecture, and writing clean, robust code.*
+*Passionate about technology and programming, modular architecture, and writing clean, robust code.*
 
 ---
 
