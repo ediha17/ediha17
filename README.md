@@ -8,7 +8,7 @@
 
 | Category | Technologies |
 | :---: | :--- |
-| **Languages** | `C` |
+| **Languages** | ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) |
 | **Specialties** | `Memory Management`, `Algorithm Design`, `Unix Programming` |
 | **Tools** | `Makefile`, ![GDB](https://img.shields.io/badge/GDB-%23313739.svg?style=flat-square&logo=gnu&logoColor=white), `Valgrind`, `Git`, `Neovim` |
 | **Foundations** | `Data Structures`, `Variadic Functions`, `Pointer Arithmetic` |
