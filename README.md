@@ -20,6 +20,8 @@ My career in software development is driven by a deep curiosity about technology
       <td>
         <img src="https://raw.githubusercontent.com/github/explore/f3e22f0dca2be955676bc70d6214b95b13354ee8/topics/c/c.png" height="50" alt="C logo" />
             <img width="12" />
+        <img src="https://images.seeklogo.com/logo-png/15/2/java-logo-png_seeklogo-158094.png" height="50" alt="Java logo" />
+          <img width="12" />
       </td>
     </tr>
     <tr>
@@ -36,12 +38,6 @@ My career in software development is driven by a deep curiosity about technology
         <img src="https://img.shields.io/badge/Valgrind-%23191919.svg?style=flat-square&logo=valgrind&logoColor=white" alt="Valgrind">
         <img src="https://img.shields.io/badge/Git-%23F05033.svg?style=flat-square&logo=git&logoColor=white" alt="Git">
         <img src="https://img.shields.io/badge/Neovim-%2357A143.svg?style=flat-square&logo=neovim&logoColor=white" alt="Neovim">
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><b>Foundations</b></td>
-      <td>
-        <code>Data Structures</code> <code>Variadic Functions</code> <code>Pointer Arithmetic</code>
       </td>
     </tr>
   </tbody>
