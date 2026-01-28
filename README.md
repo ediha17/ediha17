@@ -16,7 +16,7 @@
     <tr>
       <td align="center"><b>Languages</b></td>
       <td>
-        <img src="https://img.shields.io/badge/C-%2300599C.svg?style=flat-square&logo=c&logoColor=white" alt="C">
+        <img src="https://img.shields.io/badge/C-%2300599C.svg?style=flat-square&logo=c&logoColor=white">
       </td>
     </tr>
     <tr>
