@@ -51,7 +51,7 @@ My career in software development is driven by a deep curiosity about technology
 
 ### 🏗️ Core Projects
 
-#### 🖨️ [ft_printf](enlace-a-tu-repo)
+#### 🖨️ [ft_printf](https://github.com/ediha17/42Bcn_printf.git)
 *Custom Implementation of the C Standard Library printf*
 
 * **The Challenge:** Handling variadic arguments and data conversion without memory leaks.
