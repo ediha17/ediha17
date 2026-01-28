@@ -1,6 +1,7 @@
 ## Hi I'm Edi
 
-My career in software development is driven by a deep curiosity about technology and how code interacts with it. I’m currently fully immersed in the 42 methodology as a student at the Barcelona campus, prioritizing peer-to-peer and self-taught learning. 
+My career in software development is driven by a deep curiosity about technology and how code interacts with it. I’m currently fully immersed in the 42 methodology as a student at the Barcelona campus, prioritizing peer-to-peer and self-taught learning.
+
 *When i enter in 42, I discover my greatest fear... The Norminette*😨.
 
 ---
@@ -92,7 +93,6 @@ My career in software development is driven by a deep curiosity about technology
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ediha17&theme=dark&hide_border=true)
 ![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=ediha17&show_icons=true&theme=dark&hide_border=true)
 
----
 <!--
 ### 🛠️ Current Focus
 * 🚀 Mastering **Data Structures** (Linked Lists, Binary Trees, Hash Maps).
