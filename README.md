@@ -1,16 +1,17 @@
 # 🚀 @ediha17 | Software Engineer & C Specialist
 
 *Passionate about low-level optimization, modular architecture, and writing clean, robust code.*
+*My greatest fear... The Norminette*
 
 ---
 
 ### 💻 Technical Stack
 
 | Category | Technologies |
-| :--- | :--- |
-| **Languages** | `C`, `C++`, `Bash` |
+| :---: | :--- |
+| **Languages** | `C` |
 | **Specialties** | `Memory Management`, `Algorithm Design`, `Unix Programming` |
-| **Tools** | `Makefile`, `GDB`, `Valgrind`, `Git`, `Vim` |
+| **Tools** | `Makefile`, `GDB`, `Valgrind`, `Git`, `Neovim` |
 | **Foundations** | `Data Structures`, `Variadic Functions`, `Pointer Arithmetic` |
 
 ---
