@@ -49,7 +49,6 @@
 ### 🛠️ Current Focus
 * 🚀 Mastering **Data Structures** (Linked Lists, Binary Trees, Hash Maps).
 * 🛡️ Enhancing **Defensive Programming** techniques in C.
-* 🔧 Contributing to open-source projects focused on CLI tools.
 
 ### 📫 Contact
 * **LinkedIn:** [Tu Nombre]
