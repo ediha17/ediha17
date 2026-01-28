@@ -47,7 +47,7 @@
 
 ---
 
-### 🏗️ Core Projects (Systems Programming)
+### 🏗️ Core Projects
 
 #### 🖨️ [ft_printf](enlace-a-tu-repo)
 *Custom Implementation of the C Standard Library printf*
