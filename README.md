@@ -51,28 +51,67 @@ My career is driven by a deep curiosity about technology and how code interacts 
 ---
 
 ### 🏗️ Featured Projects
-
-#### 🖨️ [rag-document-recommender](https://github.com/VanoviTeam/rag-document-recommender)
-*Intelligent recommendation system built on a RAG architecture*
-`Docker` `N8N` `PostgreSQL` `LLMs` `Qdrant`
  
-* Built an intelligent recommendation system combining document retrieval and generation (RAG) to deliver contextualized results.
-
-#### 🌀 [A-Maze-Ing](https://github.com/ediha17)
-*Maze generator and solver*
-`Python` `Algorithms` `Data Structures`
+#### 🧠 [RAG Document Recommender](https://github.com/VanoviTeam/rag-document-recommender)
+*Self-hosted, containerized AI recommendation system built on Retrieval-Augmented Generation*
  
-* Implemented a maze generator and solver from scratch in Unix environments.
+**Tech Stack:** `Docker` `n8n` `PostgreSQL` `Qdrant` `Ollama / LLMs` `Redis` `Caddy`
+ 
+Developed during my internship at Vanovi Design to automate book recommendations, this project orchestrates a complete RAG pipeline: incoming documents are chunked and embedded, stored as vectors in **Qdrant**, and retrieved semantically whenever a user asks a question — so the AI Agent only answers based on the actual hosted documents instead of hallucinating.
+ 
+* The entire workflow — ingestion, embedding, retrieval, and response generation — is automated and coordinated through **n8n**, with an AI Agent node that autonomously decides when it needs to query the document database before crafting its answer.
+* Runs **fully self-hosted** using local LLMs served through **Ollama**, avoiding dependency on paid external APIs and keeping all data processing on-premise.
+* **PostgreSQL** and **Redis** handle relational data and caching, while **Caddy** acts as the reverse proxy in front of the stack.
+* The whole system is packaged with **Docker Compose**, and has been validated both on cloud infrastructure (Oracle Cloud ARM instances) and on modest local hardware running CPU-only.
+  
+#### 🌀 [A-Maze-Ing](https://github.com/ediha17/42bcn_A-Maze-Ing)
+*Maze generator and solver built from scratch, developed as part of the 42 curriculum*
+ 
+**Tech Stack:** `Python` `Algorithms` `Data Structures`
+ 
+This project follows 42's maze specification: generate a fully-connected maze of configurable size in a Unix environment, encode it to a file, and compute a valid path between an entry and an exit point — all implemented from the ground up without relying on external maze libraries.
+ 
+* Builds the maze as a **graph of cells**, using a randomized generation algorithm to carve out corridors while guaranteeing full connectivity and no isolated areas.
+* Solves the maze by finding the **shortest path** from entry to exit, applying graph-traversal logic over the generated structure.
+* Strengthened my practical understanding of **recursion/iteration trade-offs, graph traversal, and encoding structured data** (the maze layout) into a compact file format.
+  
+#### 🔀 [Push_swap](https://github.com/ediha17/42Bcn_Push_swap)
+*High-performance sorting algorithm restricted to two stacks and a minimal instruction set*
+ 
+**Tech Stack:** `C` `Algorithm Optimization` `Sorting Algorithms`
+ 
+Push_swap sorts a list of integers using only two stacks (A and B) and a fixed set of operations (`sa`, `sb`, `ss`, `pa`, `pb`, `ra`, `rb`, `rr`, `rra`, `rrb`, `rrr`), with the goal of reaching a sorted state in the **lowest possible number of moves**.
+ 
+* Implements **two distinct strategies depending on input size**: for small stacks (2–5 elements), hand-optimized logic based on the stack's median finds the shortest sequence of moves; for large stacks (100–500 elements), a **Radix Sort in base 2** — using bitwise shift and mask operations — sorts efficiently in near-linear time.
+* Values are **pre-indexed** before sorting to safely handle negative numbers and to minimize the number of bits Radix Sort needs to process.
+* Ships with a companion **checker** program to validate that the generated sequence of moves actually results in a sorted stack, plus a visualizer used during development to debug the algorithm step by step.
+* Rigorously tested for memory safety with **Valgrind**, in line with the 42 Norm's zero-leak requirement.
 
 ---
 
-### 🧠 Programming Philosophy
-
-* **Efficiency First:** Always prioritizing memory footprint and CPU cycles, especially in constrained environments.
-* **Modular Design:** Breaking complex problems into isolated, testable, and reusable auxiliary functions.
-* **Robustness:** Strict adherence to the **42 Norm**, ensuring code quality through static analysis and rigorous testing with **Valgrind**.
+🧠 Programming Philosophy
+Efficiency First: Always prioritizing memory footprint and CPU cycles, especially in constrained environments.
+Modular Design: Breaking complex problems into isolated, testable, and reusable auxiliary functions.
+Robustness: Strict adherence to the 42 Norm, ensuring code quality through static analysis and rigorous testing with Valgrind.
 
 ---
+
+### 📚 Additional 42 Core Curriculum Projects
+ 
+#### 🖨️ [ft_printf](https://github.com/ediha17/42Bcn_printf.git)
+*Custom implementation of the C standard library's `printf` function*
+ 
+* **The Challenge:** Handling variadic arguments and data conversion without memory leaks.
+* **Architecture:** Developed a **modular dispatcher** system that maps specifiers to specialized internal logic, ensuring high extensibility and O(1) function lookup for conversions.
+* **Key Learning:** Deep dive into the **call stack**, `va_list` management, and binary-to-hexadecimal conversion algorithms.
+#### 📌 [ft_get_next_line](https://github.com/ediha17/42Bcn_get_next_line.git)
+*Line-by-line file reading through file descriptors*
+ 
+* **The Challenge:** Designing a function that efficiently reads from a file descriptor (`fd`) and returns a single line per call, without knowing the line length in advance or losing data between consecutive calls.
+* **Architecture:** Implemented a **static buffer management system** that preserves the "leftover" data from the previous `read()` operation, accumulating data in a loop until a newline (`\n`) is detected or EOF is reached.
+* **Key Learning:** Advanced handling of static variables, heap memory allocation, and optimizing the `read()` system call using a configurable `BUFFER_SIZE`. Mastery of **memory leak prevention** during string concatenation and truncation.
+---
+
 
 ### 📈 Coding Metrics
 
