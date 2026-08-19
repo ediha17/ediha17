@@ -62,15 +62,6 @@ My career in software development is driven by a deep curiosity about technology
 
 *  **Key Learning:** Advanced handling of static variables, heap memory allocation, and optimizing the read() system call using a configurable `BUFFER_SIZE`. Mastery of **memory leak prevention** during string concatenation and truncation.
 
-### 📚 [libft](https://github.com/ediha17/42Bcn_Libft.git)
-*Custom Static Library of C Standard Functions*
-
-* **The Challenge:** Reimplementing a significant portion of the libc functions and additional utility functions to be used in all subsequent 42 projects.
-
-* **Architecture:** Designed as a monolithic static library (.a) with a focus on modularity and rigorous error handling. The project includes reimplementations of string manipulation, memory allocation (`malloc`, `calloc`), and linked list management.
-
-* **Key Learning:** Mastery of pointer arithmetic, understanding the underlying behavior of standard functions, and developing a reusable code base. This project established my foundation for memory management and the importance of writing highly portable code.
-
 ---
 
 ### 🧠 Programming Philosophy
