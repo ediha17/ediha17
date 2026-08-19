@@ -3,6 +3,7 @@
 My career is driven by a deep curiosity about technology and how code interacts with it. I'm currently immersed in the **42 Barcelona** methodology, studying the Common Core, prioritizing peer-to-peer and self-taught learning.
  
 *When I entered 42, I discovered my greatest fear... The Norminette* 😨
+
 ---
 
 ### 💻 Technical Stack
@@ -11,7 +12,7 @@ My career is driven by a deep curiosity about technology and how code interacts 
   <thead>
     <tr>
       <th align="center">Category</th>
-      <th align="left">Technologies</th>
+      <th align="center">Technologies</th>
     </tr>
   </thead>
   <tbody>
