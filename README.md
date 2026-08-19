@@ -98,9 +98,6 @@ Push_swap sorts a list of integers using only two stacks (A and B) and a fixed s
 
 * **Relentless Problem Solving:** Thriving on complex challenges that require creative logic, continuous self-teaching, and adapting quickly to entirely new technology stacks.
 
-### 📈 Coding Metrics
-
-![Metrics](https://github-readme-stats.vercel.app/api?username=ediha17&show_icons=true&count_private=true&theme=dark)
 
 <!--
 ### 🛠️ Current Focus
