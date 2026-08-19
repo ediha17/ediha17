@@ -49,6 +49,7 @@ My career is driven by a deep curiosity about technology and how code interacts 
     </tr>
   </tbody>
 </table>
+
 ---
 
 ### 🏗️ Featured Projects
@@ -99,8 +100,7 @@ Push_swap sorts a list of integers using only two stacks (A and B) and a fixed s
 
 ### 📈 Coding Metrics
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ediha17&theme=dark&hide_border=true)
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=ediha17&show_icons=true&theme=dark&hide_border=true)
+![Metrics](https://github-readme-stats.vercel.app/api?username=ediha17&show_icons=true&count_private=true&theme=dark)
 
 <!--
 ### 🛠️ Current Focus
