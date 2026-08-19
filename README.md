@@ -5,7 +5,6 @@ My career is driven by a deep curiosity about technology and how code interacts 
 *When I entered 42, I discovered my greatest fear... The Norminette* 😨
 
 ---
-
 ### 💻 Technical Stack
  
 <table>
